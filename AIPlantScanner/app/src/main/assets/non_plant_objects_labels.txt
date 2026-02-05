@@ -1,0 +1,2 @@
+0 non-plant
+1 plant

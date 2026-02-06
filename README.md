@@ -5,6 +5,11 @@ This is an Android application that leverages custom trained image recognition A
 The app uses six TensorFlow Lite models running entirely on-device. One model is trained to determine whether a scanned image contains a plant or a non-plant object. If a plant is detected, the app proceeds to use one of five plant specific models to classify the plant as healthy or diseased.<br>
 When a plant is successfully identified, the app displays its common name, scientific name, description, and recommended treatment information. Images can be scanned using either the device camera or the image gallery.<br>
 
+## Screenshots
+<img width="383" height="834" alt="Screenshot 2026-02-06 201045" src="https://github.com/user-attachments/assets/405b7088-d052-437c-9788-50d8de96b2ea" />
+<img width="388" height="830" alt="Screenshot 2026-02-06 201057" src="https://github.com/user-attachments/assets/afe9f46d-426a-41e8-9eb6-8bcf74003a48" /> <br>
+The app in action after scanning a healthy and sick (Citrus Canker) calamansi leaf. Visible are the UI elements such as the navigational bar located at the top of the screen, action buttons for choosing a model or general classification mode, image preview, and plant or illness description.
+
 ## Supported Plants
 - Calamansi (Citrus × microcarpa)
 - Ampalaya (Momordica charantia)
